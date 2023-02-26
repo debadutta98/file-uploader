@@ -6,13 +6,13 @@
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
-<!-- <div align="center">
+<div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://master--wonderful-parfait-585459.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://master--wonderful-parfait-585459.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -20,7 +20,7 @@
       Challenge
     </a>
   </h3>
-</div> -->
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
