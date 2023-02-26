@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import UploadedScreen from './components/UploadedScreen';
+import UploadingScreen from './components/UploadingScreen';
+import UploadScreen from './components/UploadScreen';
+import { useAppContext } from './context';
 
 function App() {
+  const appCtx = useAppContext();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {appCtx.state ==='upload' && <UploadScreen/>}
+      {appCtx.state === 'uploading' && <UploadingScreen/>}
+      {appCtx.state === 'uploaded' && <UploadedScreen url={appCtx.url}/>}
+    </>
   );
 }
 

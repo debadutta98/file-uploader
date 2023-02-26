@@ -1,0 +1,15 @@
+.card {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 18rem;
+    margin: auto;
+    align-items: center;
+    margin-top: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+}

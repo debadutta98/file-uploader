@@ -1,0 +1,24 @@
+.progressbar-outline {
+    overflow-x: hidden;
+    border-radius: 8px;
+    width: 100%;
+    background: #F2F2F2;
+    height: 6px;
+}
+
+.progress-indicator {
+    background:#2F80ED;
+    width: 100.93px;
+    height: 6px;
+    border-radius: 8px;
+    animation: progress 2s linear 600ms infinite reverse forwards;
+}
+
+@keyframes progress {
+0%{
+    margin-left:110%;
+}
+100%{
+  margin-left: -5rem;
+}
+}
